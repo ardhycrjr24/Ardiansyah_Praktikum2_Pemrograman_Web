@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>@yield('title', 'Aplikasi Mahasiswa')</title>
+  <title>@yield('title', 'Aplikasi Manajemen Akademik')</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <style>
@@ -36,11 +36,11 @@
   <!-- tambah Navbar -->
   <nav class="navbar navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="{{ route('mahasiswa.index') }}">DAFTAR MAHASISWA</a>
+      <a class="navbar-brand fw-bold" href="{{ route('mahasiswa.index') }}">MANAJEMEN AKADEMIK</a>
       <ul class="navbar-nav flex-row">
-        <li class="nav-item mx-2"><a href="{{ route('mahasiswa.index') }}" class="nav-link">Mahasiswa</a></li>
-        <li class="nav-item mx-2"><a href="{{ route('dosen.index') }}" class="nav-link">Dosen</a></li>
-        <li class="nav-item mx-2"><a href="{{ route('matakuliah.index') }}" class="nav-link">Mata Kuliah</a></li>
+        <li class="nav-item mx-2"><a href="{{ route('mahasiswa.index') }}" class="nav-link">MAHASISWA</a></li>
+        <li class="nav-item mx-2"><a href="{{ route('dosen.index') }}" class="nav-link">DOSEN</a></li>
+        <li class="nav-item mx-2"><a href="{{ route('matakuliah.index') }}" class="nav-link">MATA KULIAH</a></li>
     </ul>
     </div>
   </nav>

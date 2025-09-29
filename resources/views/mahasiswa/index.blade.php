@@ -39,7 +39,7 @@
                     <form action="{{ route('mahasiswa.destroy', $mhs->id) }}" method="POST" style="display:inline;">
                         @csrf
                         @method('DELETE')
-                        <button type="submit" onclick="return confirm('Yakin hapus?')" class="btn btn-danger btn-sm">Hapus</button>
+                        <button type="submit" onclick="return confirm('Apakah anda yakin ingin hapus?')" class="btn btn-danger btn-sm">Hapus</button>
                     </form>
                 </td>
             </tr>

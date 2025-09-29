@@ -59,7 +59,7 @@ class MahasiswaController extends Controller
         $mahasiswa->update($request->all());
 
         return redirect()->route('mahasiswa.index')
-                         ->with('success', 'Data berhasil diupdate!');
+                         ->with('success', 'Data berhasil diperbarui!');
     }
 
     // Hapus data mahasiswa
